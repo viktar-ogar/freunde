@@ -1,0 +1,19 @@
+<!doctype html>
+{% load static %}
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="{% static 'css/bootstrap.css' %}">
+    <link rel="stylesheet" href="{% static 'css/style.css' %}" type="text/css" media="all">
+    <title>{% block title %}Default{% endblock title %}</title>
+</head>
+<body>
+    <div id="page" class="page">
+        <div id="home" class="main-banner bg bg1">
+            <h2>{% block header %}{% endblock header %}</h2><br>
+        </div>
+        <div class="allcontent" style="padding-top: 1em;"></div>{% block content %}{% endblock content %}</div>
+        <div class="footer">{% block footer %}{% endblock footer %}</div>
+    </div>
+</body>
+</html>

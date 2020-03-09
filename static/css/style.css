@@ -1,0 +1,29 @@
+/*--/banner --*/
+
+.main-banner {
+    background: url('../images/single22.jpg')no-repeat center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    -ms-background-size: cover;
+    background-size: cover;
+    position: relative;
+    min-height: 3em;
+}
+
+.main-banner.inner {
+    background: url('../katushka_plenki.jpg')no-repeat center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    -ms-background-size: cover;
+    background-size: cover;
+    position: relative;
+    min-height: 20em;
+}
+
+.bg1 {
+    background-color: rgba(0, 0, 0, 0);
+    margin-top: 0;
+    background-image: url('../images/single22.jpg');
+}
