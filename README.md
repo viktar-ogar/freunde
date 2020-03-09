@@ -1,0 +1,2 @@
+# freunde
+Application for compititions
